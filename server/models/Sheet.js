@@ -5,12 +5,19 @@ const sheetSchema = new Schema ({
     name: {
         type: String,
     },
+    character_name:{
+        type: String,
+    },
     class: {
         type: String
     },
     level: {
         type: String
     },
+    level: {
+        type: String
+    },
+
 });
 
 const Sheet = mongoose.model('Sheet', sheetSchema);
