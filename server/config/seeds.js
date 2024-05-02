@@ -7,8 +7,9 @@ db.once('open', async () => {
     await cleanDB('Sheet', 'sheets');
 
     await Sheet.create({
-        name: 'Drizz',
-        class: 'Ranger',
+        name: 'Yarmi',
+        class: 'Monk',
+        multiclass: 'Rogue',
         level: '15'
     });
 
