@@ -10,6 +10,7 @@ const typeDefs = `
     type Sheet {
         name: String
         class: String
+        multiclass: String
         level: String
     }
 

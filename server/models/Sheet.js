@@ -11,7 +11,7 @@ const sheetSchema = new Schema ({
     class: {
         type: String
     },
-    level: {
+    multiclass: {
         type: String
     },
     level: {
