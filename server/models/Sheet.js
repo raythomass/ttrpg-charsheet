@@ -2,19 +2,19 @@ const mongoose = require('mongoose')
 const { Schema, model } = mongoose;
 
 const sheetSchema = new Schema ({
-    name: {
+    player_name: {
         type: String,
     },
-    character_name:{
+    char_name:{
         type: String,
     },
-    class: {
+    char_class: {
         type: String
     },
-    multiclass: {
+    char_multiclass: {
         type: String
     },
-    level: {
+    char_level: {
         type: String
     },
 
