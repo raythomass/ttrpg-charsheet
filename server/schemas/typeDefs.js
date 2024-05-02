@@ -3,15 +3,15 @@ const typeDefs = `
         _id: ID
         username: String!
         email: String!
-        password: String!
         sheets: [Sheet]
     }
 
     type Sheet {
-        name: String
-        class: String
-        multiclass: String
-        level: String
+        player_name: String
+        char_name: String
+        char_class: String
+        char_multiclass: String
+        char_level: String
     }
 
     type Query {
@@ -19,6 +19,13 @@ const typeDefs = `
         sheet: [Sheet]
     }
 
-`
+    type Mutation {
+        addSheet(
+            player_name: String!
+            char_name: String!
+            ): Sheet
+    }
+
+`;
 
 module.exports = typeDefs;
