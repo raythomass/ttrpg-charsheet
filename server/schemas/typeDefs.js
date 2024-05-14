@@ -12,6 +12,12 @@ const typeDefs = `
         char_class: String
         char_multiclass: String
         char_level: String
+        char_strength: String
+        char_dexterity: String
+        char_constitution: String
+        char_intelligence: String
+        char_wisdom: String
+        char_charisma: String
     }
 
     type Query {

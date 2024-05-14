@@ -26,7 +26,14 @@ db.once('open', async () => {
                 char_name: 'Test',
                 char_class: 'Test',
                 char_multiclass: 'Test',
-                char_level: '1'
+                char_level: '1',
+                char_strength: '5',
+                char_dexterity: '5',
+                char_constitution: '5',
+                char_intelligence: '5',
+                char_wisdom: '5',
+                char_charisma: '5',
+                
             }
         ]
       });

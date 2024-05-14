@@ -14,9 +14,25 @@ const sheetSchema = new Schema ({
     char_multiclass: {
         type: String
     },
-    char_level: {
-        type: String
+    char_strength: {
+        type: Number
     },
+    char_dexterity: {
+        type: Number
+    },
+    char_constitution: {
+        type: Number
+    },
+    char_intelligence: {
+        type: Number
+    },
+    char_wisdom: {
+        type: Number
+    },
+    char_charisma: {
+        type: Number
+    },
+    
 
 });
 
